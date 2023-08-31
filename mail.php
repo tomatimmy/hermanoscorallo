@@ -7,7 +7,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     # Replace this email with your email address
-    $mail_to = "vanarellimatias@gmail.com";
+    $mail_to = "producciones@hermanoscorallo.com";
 
     # Message Subject. You can modify that string with your message.
     $subject = "Your Website Response";
