@@ -27,21 +27,21 @@ const anita_config = {
     /* --- Social Links --- */
     socials: {
         'facebook' : {
-            'url': '#',
+            'url': 'https://www.facebook.com/hermanoscoralloenamerica/',
             'label': 'Fb.'
         },
-        'twitter' : {
+        /* 'twitter' : {
             'url': '#',
             'label': 'Tw.'
-        },
+        }, */
         'instagram' : {
-            'url': '#',
+            'url': 'https://www.instagram.com/hermanoscorallo/',
             'label': 'In.'
         },
-        'youtube' : {
+        /* 'youtube' : {
             'url': '#',
             'label': 'Yt.'
-        },
+        }, */
     },
 
     /* --- Content Features --- */
