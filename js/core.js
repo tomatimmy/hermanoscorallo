@@ -14,7 +14,7 @@ const anita_config = {
         'Video': 'index.html',
         'Photography': 'photo-gallery.html',
         'About': 'about.html',
-        'Our Clients': '#',
+        'Our Clients': 'testimonials.html',
         'Contact': 'contacts.html'
     },
 
