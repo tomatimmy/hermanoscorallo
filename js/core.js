@@ -591,9 +591,10 @@ class Anita {
         if ( _self.options.sticky_header ) {
             _self.$el.header.addClass('is-sticky');
         }
+          
 
 
-        // Set Retina Logo
+        /* // Set Retina Logo
         if ( jQuery('.anita-logo.is-retina').length ) {
             jQuery('.anita-logo.is-retina').each(function() {
                 let $this = jQuery(this);
@@ -602,7 +603,7 @@ class Anita {
                     'height' : $this.children('img').attr('height') ? (0.5 * $this.children('img').attr('height')) : _self.options.logo_size.h,
                 })
             });
-        }
+        } */
 
         // Main Menu Setup
         let anita_fullscreen_menu = function() {

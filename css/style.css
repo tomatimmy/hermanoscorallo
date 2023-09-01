@@ -656,6 +656,7 @@ header#anita-header.is-sticky {
 .anita-logo {
     display: block;
     pointer-events: all;
+    max-width: 250px;
 }
 
 /* --- Simple Menu --- */
