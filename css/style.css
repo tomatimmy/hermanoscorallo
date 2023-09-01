@@ -2381,29 +2381,42 @@ body.anita-show-menu .anita-page-background {
     flex-wrap: wrap;
     position: relative;
 }
+
+.anita-testimonials-grid-clientes {
+    margin: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: white;
+}
+
 .anita-testimonials-grid.is-hover .anita-testimonials-item {
     opacity: 0.3;
 }
 .anita-testimonials-grid.is-hover .anita-testimonials-item.is-hover {
     opacity: 1;
 }
+
 .anita-testimonials-item.is-hover .anita-testimonials-item_inner {
     transform: scale(1.07);
 }
 .anita-testimonials-item {
-    padding: 20px;
     will-change: opacity;
     opacity: 0.3s;
 }
 .anita-testimonials-item_inner {
     transition: transform 0.3s;
     will-change: transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .anita-testimonials-2cols .anita-testimonials-item {
     width: 50%;
 }
 .anita-testimonials-3cols .anita-testimonials-item {
-    width: 33.33%;
+    width: 25%;
 }
 .anita-testimonials-4cols .anita-testimonials-item {
     width: 25%;
