@@ -1044,6 +1044,7 @@ body.anita-show-menu.anita-unload .anita-fullscreen-menu-wrap nav.anita-nav {
     transition: transform 0.3s;
     will-change: transform;
 }
+
 body.anita-show-menu .anita-container,
 body.anita-show-menu .anita-page-background {
     transform: scale(1.1);
@@ -3125,7 +3126,8 @@ body.anita-unload.anita-show-menu .anita-nav {
 /* Unmute Sound Button */
 .anita-unmute-video {
     position: fixed;
-    left: calc(50% - 32px);
+    left: 77%;
+    top: 62%;
     bottom: 22px;
     width: 64px;
     height: 64px;
@@ -3179,5 +3181,5 @@ body.anita-unload.anita-show-menu .anita-nav {
 }
 
 .img-cliente {
-    max-width: 40%;
+    max-width: 50%;
 }
