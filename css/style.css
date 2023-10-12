@@ -2403,6 +2403,7 @@ body.anita-show-menu .anita-page-background {
 .anita-testimonials-item {
     will-change: opacity;
     opacity: 0.3s;
+    margin: 25px 0;
 }
 .anita-testimonials-item_inner {
     transition: transform 0.3s;
@@ -2413,7 +2414,8 @@ body.anita-show-menu .anita-page-background {
     padding: 10px;
 }
 .anita-testimonials-2cols .anita-testimonials-item {
-    width: 50%;
+    /* width: 50%; */
+    padding: 10px 0px;
 }
 .anita-testimonials-3cols .anita-testimonials-item {
     width: 25%;
@@ -2429,7 +2431,8 @@ body.anita-show-menu .anita-page-background {
 	justify-content: space-between;
 	position: relative;
 	z-index: 3;
-    min-height: 100px;
+    /* min-height: 150px; */
+    min-width: 15%;
 }
 .anita-testimonials-item__author img {
 	width: 100px;
@@ -3117,4 +3120,64 @@ body.anita-unload.anita-show-menu .anita-nav {
     100% {
         transform: translateX(0);
     }
+}
+
+/* Unmute Sound Button */
+.anita-unmute-video {
+    position: fixed;
+    left: calc(50% - 32px);
+    bottom: 22px;
+    width: 64px;
+    height: 64px;
+    background: #00000040;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.125s;
+    will-change: opacity, transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 33;
+    pointer-events: none;
+}
+.anita-unmute-video.is-active {
+    opacity: 0.7;
+    pointer-events: all;
+}
+.anita-unmute-video::after {
+    content: '';
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    border: 2px solid var(--anita-s-heading);
+    transition: opacity 0.3s, transform 0.3s;
+    will-change: opacity, transform;
+    transform: scale(1.2);
+}
+.anita-unmute-video::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 2px;
+    position: absolute;
+    left: 17px;
+    top: 31px;
+    background: var(--anita-s-heading);
+    transform: rotate(45deg) scale(0, 1);
+    opacity: 0;
+    will-change: opacity, transform;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.anita-unmute-video.is-mute::before {
+    transform: rotate(45deg) scale(1, 1);
+    opacity: 1;
+}
+
+.img-cliente {
+    max-width: 40%;
 }

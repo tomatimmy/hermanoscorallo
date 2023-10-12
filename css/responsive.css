@@ -462,3 +462,19 @@
         top: 10px;
     }
 }
+
+/* Unmute Mobile Button */
+.anita-unmute-video {
+    transform: scale(0.7);
+    bottom: 185px;
+}
+.anita-unmute-roll.anita-unmute-video {
+    left: 12px;
+    bottom: 80px;
+}
+.anita-unmute-slider.anita-unmute-video,
+.anita-unmute-carousel.anita-unmute-video {
+    left: 12px;
+    bottom: 70px;
+}
+

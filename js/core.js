@@ -1812,6 +1812,22 @@ class Anita {
                 jQuery(this).next('.anita-page-background').removeClass('is-hover');
             });
         }
+
+        // Video Unmute Sound Button
+        if ( jQuery('.anita-unmute-video').length && (jQuery('.anita-gl-gallery-item.is-video').length || jQuery('.anita-gallery-item[data-type="video"]').length ) ) {
+            let $anita_unmute = jQuery('.anita-unmute-video')
+            $anita_unmute.addClass('is-active');
+            $anita_unmute.on('click', function() {
+                $anita_unmute.toggleClass('is-mute');
+                $anita_unmute.parent().find('video').each(function() {
+                    if ( $anita_unmute.hasClass('is-mute') ) {
+                        this.muted = true;
+                    } else {
+                        this.muted = false;
+                    }
+                });
+            });
+        }
     }
 
     // Anita Layout

@@ -1,8 +1,4 @@
 <?php
-/**
- * Author: Shadow Themes
- * Author URL: http://shadow-themes.com
- */
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
