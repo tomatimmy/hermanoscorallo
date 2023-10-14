@@ -3197,3 +3197,10 @@ body.anita-unload.anita-show-menu .anita-nav {
     justify-content: center;
     margin-top: 100px;
 }
+
+.reel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
