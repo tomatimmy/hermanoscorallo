@@ -1031,6 +1031,7 @@ body.anita-show-menu.anita-unload .anita-fullscreen-menu-wrap nav.anita-nav {
     position: relative;
     z-index: 2;
     overflow: hidden;
+    margin-bottom: -100px;
 }
 .anita-main.anita-min-content {
     display: flex;
@@ -3182,4 +3183,12 @@ body.anita-unload.anita-show-menu .anita-nav {
 
 .img-cliente {
     max-width: 50%;
+}
+
+.logo-div {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
