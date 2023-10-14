@@ -1031,8 +1031,13 @@ body.anita-show-menu.anita-unload .anita-fullscreen-menu-wrap nav.anita-nav {
     position: relative;
     z-index: 2;
     overflow: hidden;
+/*     margin-bottom: -100px;
+ */}
+
+.anita-main.main-about {
     margin-bottom: -100px;
 }
+
 .anita-main.anita-min-content {
     display: flex;
     align-items: center;

@@ -461,6 +461,34 @@
         right: 10px;
         top: 10px;
     }
+    .anita-testimonials-item_inner {
+        transition: transform 0.3s;
+        will-change: transform;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 30px;
+    }
+    
+    .anita-testimonials-item__author {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        /* min-height: 150px; */
+        min-width: 15%;
+        order: 2;
+    }
+
+    .logo-div {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
 }
 
 /* Unmute Mobile Button */
@@ -478,23 +506,3 @@
     bottom: 70px;
 }
 
-.anita-testimonials-item_inner {
-    transition: transform 0.3s;
-    will-change: transform;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 30px;
-}
-
-.anita-testimonials-item__author {
-	display: flex;
-	justify-content: space-between;
-	position: relative;
-	z-index: 3;
-    /* min-height: 150px; */
-    min-width: 15%;
-    order: 2;
-}
