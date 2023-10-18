@@ -3191,11 +3191,10 @@ body.anita-unload.anita-show-menu .anita-nav {
 }
 
 .logo-div {
-    height: auto;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .reel {
